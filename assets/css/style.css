@@ -61,3 +61,13 @@ footer {
 .custom-placeholder-color {
   color: white;
 }
+
+.profile-logo-container {
+  display: inline-block;
+  position: relative;
+}
+.avatar-mod {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}

@@ -18,7 +18,9 @@
   </head>
   <body>
     <header class="profile-header">
-      <div><img src="./assets/assets/netflix_logo.png" alt="" /></div>
+      <div class="mx-auto mx-md-0">
+        <img src="./assets/assets/netflix_logo.png" alt="" />
+      </div>
     </header>
     <main class="container custom-container profile-main">
       <div class="row">
@@ -28,12 +30,14 @@
       </div>
       <div class="row border-bottom border-2 border-secondary">
         <div class="col-3 gy-3">
-          <img src="./assets/assets/avatar.png" alt="" />
+          <div class="profile-logo-container">
+            <i class="bi bi-pencil-fill avatar-mod"></i>
+            <img src="./assets/assets/avatar.png" alt="" />
+          </div>
         </div>
         <div class="col-9 gy-3">
           <div class="row border-bottom border-2 border-secondary me-4">
             <div class="col-10">
-              <!-- <div class="bg-secondary p-2 fs-4">Strive Student</div> -->
               <div class="input-group">
                 <input
                   type="text"
@@ -108,7 +112,7 @@
         </div>
       </div>
       <div class="row me-2">
-        <div class="col-3">
+        <div class="col-5 offset-1 col-md-3 offset-md-0">
           <div>
             <button
               type="button"
@@ -118,7 +122,7 @@
             </button>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-5 col-md-3">
           <div>
             <button
               type="button"
@@ -128,7 +132,7 @@
             </button>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-8 offset-2 col-md-6 offset-md-0">
           <div>
             <button
               type="button"
