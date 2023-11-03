@@ -1,0 +1,28 @@
+.mt-6 {
+  margin-top: 5rem;
+}
+
+nav .container .logo-img {
+  width: 100px;
+}
+.nav-item .avatar-img {
+  width: 40px;
+}
+body {
+  background-color: #141414;
+}
+
+form {
+  color: white;
+}
+
+main {
+  color: white;
+}
+main img {
+  width: 100%;
+}
+
+footer {
+  width: 800px;
+}
