@@ -71,3 +71,24 @@ footer {
   bottom: 5px;
   left: 5px;
 }
+
+.my-checkbox {
+  background-color: transparent;
+  box-shadow: none;
+
+  border-color: white;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: 0;
+}
+.my-checkbox:checked {
+  background-color: transparent;
+  box-shadow: none;
+
+  border-color: white;
+}
+.my-checkbox:focus {
+  box-shadow: none;
+
+  border-color: white;
+}
