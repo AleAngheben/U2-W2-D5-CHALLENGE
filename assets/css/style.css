@@ -19,6 +19,7 @@ nav .container .logo-img {
 }
 body {
   background-color: #141414;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 form {
@@ -42,9 +43,21 @@ footer {
   width: 100%;
 }
 .custom-container {
-  width: 800px;
+  width: 600px;
 }
 
 .secondary-dark {
   background-color: #333333;
+}
+.profile-btn:hover {
+  background-color: white;
+  color: black;
+}
+.profile-btn-delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.custom-placeholder-color {
+  color: white;
 }
