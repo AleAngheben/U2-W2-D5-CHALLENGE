@@ -34,7 +34,7 @@ main img {
 }
 
 footer {
-  width: 800px;
+  max-width: 800px;
 }
 .profile-header > div {
   width: 120px;
