@@ -35,3 +35,16 @@ main img {
 footer {
   width: 800px;
 }
+.profile-header > div {
+  width: 120px;
+}
+.profile-header > div > img {
+  width: 100%;
+}
+.custom-container {
+  width: 800px;
+}
+
+.secondary-dark {
+  background-color: #333333;
+}

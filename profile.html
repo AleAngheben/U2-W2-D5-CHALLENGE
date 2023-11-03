@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Page EP</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="profile-header">
+      <div><img src="./assets/assets/netflix_logo.png" alt="" /></div>
+    </header>
+    <main class="container custom-container profile-main">
+      <div class="row">
+        <div class="col-12 border-bottom border-2 border-secondary">
+          <h1>Edit Profile</h1>
+        </div>
+      </div>
+      <div class="row border-bottom border-2 border-secondary">
+        <div class="col-3 gy-3">
+          <img src="./assets/assets/avatar.png" alt="" />
+        </div>
+        <div class="col-9 gy-3">
+          <div class="row border-bottom border-2 border-secondary me-4">
+            <div class="col-10">
+              <div class="bg-secondary p-2 fs-4">Strive Student</div>
+            </div>
+            <div class="col-11">
+              <div class="mt-4 mb-1 fs-4">Language:</div>
+              <div class="dropdown mb-3">
+                <button
+                  class="btn btn-dark dropdown-toggle border rounded-0 bg-transparent"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  English
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button class="dropdown-item" type="button">Italian</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">German</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">French</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3 border-bottom border-2 border-secondary me-4">
+            <div class="col-9">
+              <div class="fs-4 text-secondary">Maturity Settings</div>
+            </div>
+            <div class="col-6 my-3">
+              <div class="secondary-dark p-2 fw-bold">ALL MATURITY RATINGS</div>
+            </div>
+            <div class="col-10">
+              <div class="text-secondary">
+                Show titles of all maturity ratings for this profile.
+              </div>
+            </div>
+            <div class="col-3">
+              <button
+                type="button"
+                class="btn px-3 my-3 btn-outline-secondary rounded-0 border-2"
+              >
+                EDIT
+              </button>
+            </div>
+          </div>
+          <div class="row my-3 me-4 align-items-center">
+            <div class="col-12"><div class="fs-4">Autoplay controls</div></div>
+            <div class="col-1 fs-3">
+              <div><i class="bi bi-check-square"></i></div>
+            </div>
+            <div class="col-11 p-0 fs-7">
+              <div>Autoplay next episode in a series on all devices.</div>
+            </div>
+            <div class="col-1 fs-3">
+              <div><i class="bi bi-check-square"></i></div>
+            </div>
+            <div class="col-11 p-0 fs-7">
+              <div>Autoplay previews while browsing on all devices.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
